@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arsenii\\Desktop\\Sender\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\dto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\dto\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D765459-897A-0DD9-8E6F-53E69E5187D5}|Sender.Domain\\Sender.Domain.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.domain\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D765459-897A-0DD9-8E6F-53E69E5187D5}|Sender.Domain\\Sender.Domain.csproj|solutionrelative:sender.domain\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.application\\contactcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|solutionrelative:sender.application\\contactcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.application\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|solutionrelative:sender.application\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\dto\\updatecontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\dto\\updatecontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\dto\\createcontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\dto\\createcontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.application\\interfaces\\irepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|solutionrelative:sender.application\\interfaces\\irepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.persistence\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|solutionrelative:sender.persistence\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|solutionrelative:sender.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.persistence\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|solutionrelative:sender.persistence\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\middleware\\customauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\middleware\\customauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D765459-897A-0DD9-8E6F-53E69E5187D5}|Sender.Domain\\Sender.Domain.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D765459-897A-0DD9-8E6F-53E69E5187D5}|Sender.Domain\\Sender.Domain.csproj|solutionrelative:sender.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D765459-897A-0DD9-8E6F-53E69E5187D5}|Sender.Domain\\Sender.Domain.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D765459-897A-0DD9-8E6F-53E69E5187D5}|Sender.Domain\\Sender.Domain.csproj|solutionrelative:sender.domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|solutionrelative:sender.persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.persistence\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|solutionrelative:sender.persistence\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D765459-897A-0DD9-8E6F-53E69E5187D5}|Sender.Domain\\Sender.Domain.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.domain\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D765459-897A-0DD9-8E6F-53E69E5187D5}|Sender.Domain\\Sender.Domain.csproj|solutionrelative:sender.domain\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70327931-ADA9-1ACE-59B0-BC217D56BFA2}|Sender.Application\\Sender.Application.csproj|solutionrelative:sender.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.persistence\\sender.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8C2BACD-57A7-C73B-E37E-45D822F5C7D2}|Sender.Persistence\\Sender.Persistence.csproj|solutionrelative:sender.persistence\\sender.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|c:\\users\\arsenii\\desktop\\sender\\sender.api\\sender.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62729005-3277-AE6E-EDD8-C9FB6B06E842}|Sender.API\\Sender.API.csproj|solutionrelative:sender.api\\sender.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Sender.API\\DTO\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\ApiResponse.cs",
+              "RelativeToolTip": "Sender.API\\DTO\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T18:17:03.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\ContactCRUD.cs",
+              "RelativeDocumentMoniker": "Sender.Application\\ContactCRUD.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\ContactCRUD.cs",
+              "RelativeToolTip": "Sender.Application\\ContactCRUD.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwGAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:53:33.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Sender.API\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Sender.API\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:37:31.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Domain\\Result.cs",
+              "RelativeDocumentMoniker": "Sender.Domain\\Result.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Domain\\Result.cs",
+              "RelativeToolTip": "Sender.Domain\\Result.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA3wBMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T07:48:16.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthUser.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\AuthUser.cs",
+              "RelativeDocumentMoniker": "Sender.Application\\AuthUser.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\AuthUser.cs",
+              "RelativeToolTip": "Sender.Application\\AuthUser.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T06:54:33.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Sender.API\\DTO\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\RegisterRequest.cs",
+              "RelativeToolTip": "Sender.API\\DTO\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T12:00:52.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Sender.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Sender.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T07:58:02.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateContactRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\UpdateContactRequest.cs",
+              "RelativeDocumentMoniker": "Sender.API\\DTO\\UpdateContactRequest.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\UpdateContactRequest.cs",
+              "RelativeToolTip": "Sender.API\\DTO\\UpdateContactRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T04:46:44.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateContactRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\CreateContactRequest.cs",
+              "RelativeDocumentMoniker": "Sender.API\\DTO\\CreateContactRequest.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\CreateContactRequest.cs",
+              "RelativeToolTip": "Sender.API\\DTO\\CreateContactRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:45:19.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\Interfaces\\IRepositories.cs",
+              "RelativeDocumentMoniker": "Sender.Application\\Interfaces\\IRepositories.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\Interfaces\\IRepositories.cs",
+              "RelativeToolTip": "Sender.Application\\Interfaces\\IRepositories.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T14:37:39.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Sender.API\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Sender.API\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T11:34:28.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Repositories.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\Repositories.cs",
+              "RelativeDocumentMoniker": "Sender.Persistence\\Repositories.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\Repositories.cs",
+              "RelativeToolTip": "Sender.Persistence\\Repositories.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwC0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T14:40:36.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Sender.Application\\Interfaces\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeToolTip": "Sender.Application\\Interfaces\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T13:05:41.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Sender.Persistence\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\PasswordHasher.cs",
+              "RelativeToolTip": "Sender.Persistence\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T13:49:44.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Program.cs",
+              "RelativeDocumentMoniker": "Sender.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Program.cs",
+              "RelativeToolTip": "Sender.API\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T13:40:44.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomAuthMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Middleware\\CustomAuthMiddleware.cs",
+              "RelativeDocumentMoniker": "Sender.API\\Middleware\\CustomAuthMiddleware.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Middleware\\CustomAuthMiddleware.cs",
+              "RelativeToolTip": "Sender.API\\Middleware\\CustomAuthMiddleware.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T11:07:01.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Domain\\User.cs",
+              "RelativeDocumentMoniker": "Sender.Domain\\User.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Domain\\User.cs",
+              "RelativeToolTip": "Sender.Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:55:34.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\TokenService.cs",
+              "RelativeDocumentMoniker": "Sender.API\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\TokenService.cs",
+              "RelativeToolTip": "Sender.API\\TokenService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAawEIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T13:07:27.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Domain\\Contact.cs",
+              "RelativeDocumentMoniker": "Sender.Domain\\Contact.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Domain\\Contact.cs",
+              "RelativeToolTip": "Sender.Domain\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T12:57:53.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Sender.API\\DTO\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "Sender.API\\DTO\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T12:03:06.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Sender.Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "Sender.Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T14:26:26.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Sender.Persistence\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "Sender.Persistence\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T17:33:46.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Domain\\Token.cs",
+              "RelativeDocumentMoniker": "Sender.Domain\\Token.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Domain\\Token.cs",
+              "RelativeToolTip": "Sender.Domain\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T20:08:05.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Sender.Application\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Application\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Sender.Application\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T13:06:53.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Sender.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\appsettings.json",
+              "RelativeToolTip": "Sender.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-19T17:20:31.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Sender.Persistence.csproj",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\Sender.Persistence.csproj",
+              "RelativeDocumentMoniker": "Sender.Persistence\\Sender.Persistence.csproj",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.Persistence\\Sender.Persistence.csproj",
+              "RelativeToolTip": "Sender.Persistence\\Sender.Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-17T14:10:58.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Sender.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Sender.API.csproj",
+              "RelativeDocumentMoniker": "Sender.API\\Sender.API.csproj",
+              "ToolTip": "C:\\Users\\Arsenii\\Desktop\\Sender\\Sender.API\\Sender.API.csproj",
+              "RelativeToolTip": "Sender.API\\Sender.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-17T14:11:20.351Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

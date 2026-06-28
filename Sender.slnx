@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Sender.Application/Sender.Application.csproj" />
+    <Project Path="Sender.Domain/Sender.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Sender.Persistence/Sender.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Sender.API/Sender.API.csproj" />
+  </Folder>
+</Solution>

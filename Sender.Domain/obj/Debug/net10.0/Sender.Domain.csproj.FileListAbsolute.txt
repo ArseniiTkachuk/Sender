@@ -1,0 +1,11 @@
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\bin\Debug\net10.0\Sender.Domain.deps.json
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\bin\Debug\net10.0\Sender.Domain.dll
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\bin\Debug\net10.0\Sender.Domain.pdb
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.AssemblyInfoInputs.cache
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.AssemblyInfo.cs
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.dll
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\refint\Sender.Domain.dll
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.pdb
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\ref\Sender.Domain.dll
