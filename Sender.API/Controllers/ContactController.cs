@@ -19,10 +19,10 @@ namespace Sender.API.Controllers
         }
 
         [Authorize]
-        [HttpPost("")]
+        [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateContactRequest request)
         {
-            var result = await _contactCRUD.CreateContactAsync(decodeToken, request.Name, request.Email, request.TelegramUsername);
+            var result = await _contactCRUD.CreateContactAsync(decodeToken.Id, request.Name, request.Email, request.TelegramUsername);
 
             if (!result.IsSuccess)
             {
@@ -36,7 +36,7 @@ namespace Sender.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetOne(Guid id)
         {
-            var result = await _contactCRUD.GetOneContactAsync(decodeToken, id);
+            var result = await _contactCRUD.GetOneContactAsync(decodeToken.Id, id);
 
             if (!result.IsSuccess)
             {
@@ -47,7 +47,7 @@ namespace Sender.API.Controllers
         }
 
         [Authorize]
-        [HttpGet("")]
+        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var result = await _contactCRUD.GetAllContactAsync(decodeToken.Id);
@@ -61,10 +61,10 @@ namespace Sender.API.Controllers
         }
 
         [Authorize]
-        [HttpPatch("")]
+        [HttpPatch]
         public async Task<IActionResult> Update([FromBody] UpdateContactRequest request)
         {
-            var result = await _contactCRUD.UpdateContactAsync(request.Id, decodeToken, request.Name, request.Email, request.TelegramUsername);
+            var result = await _contactCRUD.UpdateContactAsync(request.Id, decodeToken.Id, request.Name, request.Email, request.TelegramUsername);
 
             if (!result.IsSuccess)
             {
@@ -78,7 +78,7 @@ namespace Sender.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            var result = await _contactCRUD.DeleteContactAsync(decodeToken, id);
+            var result = await _contactCRUD.DeleteContactAsync(decodeToken.Id, id);
 
             if (!result.IsSuccess)
             {

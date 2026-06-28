@@ -26,15 +26,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false
         };
 
-        // ДОДАЙТЕ ЦЕЙ БЛОК:
         options.Events = new JwtBearerEvents
         {
             OnChallenge = context =>
             {
-                // Зупиняємо стандартну порожню відповідь
                 context.HandleResponse();
 
-                // Встановлюємо свій статус і повідомлення
                 context.Response.StatusCode = StatusCodes.Status401Unauthorized;
                 context.Response.ContentType = "application/json";
                 return context.Response.WriteAsJsonAsync(new { message = "Ви не авторизовані." });
@@ -44,7 +41,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
@@ -53,11 +49,13 @@ builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Реєстрація репозиторіїв (тепер вони доступні в усьому проекті)
+// Реєстрація репозиторіїв
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
+builder.Services.AddScoped<IMessageRepository, MessageRepository>();
 builder.Services.AddScoped<AuthUser>();
 builder.Services.AddScoped<ContactCRUD>();
+builder.Services.AddScoped<MessageCRUD>();
 
 builder.Services.AddSwaggerGen();
 

@@ -13,3 +13,4 @@ C:\Users\Arsenii\Desktop\Sender\Sender.Application\obj\Debug\net10.0\Sender.Appl
 C:\Users\Arsenii\Desktop\Sender\Sender.Application\obj\Debug\net10.0\refint\Sender.Application.dll
 C:\Users\Arsenii\Desktop\Sender\Sender.Application\obj\Debug\net10.0\Sender.Application.pdb
 C:\Users\Arsenii\Desktop\Sender\Sender.Application\obj\Debug\net10.0\ref\Sender.Application.dll
+C:\Users\Arsenii\Desktop\Sender\Sender.Application\obj\Debug\net10.0\Sender.Application.sourcelink.json

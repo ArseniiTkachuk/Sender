@@ -48,6 +48,22 @@ public class ContactRepository : IContactRepository
         _db.Contacts.Update(contact);
         await _db.SaveChangesAsync();
     }
+
+    public async Task<string?> GetEmailAsync(Guid id)
+    {
+        return await _db.Contacts
+            .Where(c => c.Id == id)
+            .Select(c => c.Email)
+            .FirstOrDefaultAsync();
+    }
+
+    public async Task<string?> GetTelegramUsernameAsync(Guid id)
+    {
+        return await _db.Contacts
+            .Where(c => c.Id == id)
+            .Select(c => c.TelegramUsername)
+            .FirstOrDefaultAsync();
+    }
 }
 
 public class MessageRepository : IMessageRepository
@@ -71,13 +87,15 @@ public class MessageRepository : IMessageRepository
         return await _db.Messages.FirstOrDefaultAsync(m => m.Id == id);
     }
 
-    public async Task RemoveAsync(Message contact)
+    public async Task RemoveAsync(Message message)
     {
-        throw new NotImplementedException();
+        _db.Messages.Remove(message);
+        await _db.SaveChangesAsync();
     }
 
-    public async Task UpdateAsync(Message contact)
+    public async Task UpdateAsync(Message message)
     {
-        throw new NotImplementedException();
+        _db.Messages.Update(message);
+        await _db.SaveChangesAsync();
     }
 }

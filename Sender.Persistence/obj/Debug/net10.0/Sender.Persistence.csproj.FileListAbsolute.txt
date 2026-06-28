@@ -17,3 +17,4 @@ C:\Users\Arsenii\Desktop\Sender\Sender.Persistence\obj\Debug\net10.0\refint\Send
 C:\Users\Arsenii\Desktop\Sender\Sender.Persistence\obj\Debug\net10.0\Sender.Persistence.pdb
 C:\Users\Arsenii\Desktop\Sender\Sender.Persistence\obj\Debug\net10.0\Sender.Persistence.genruntimeconfig.cache
 C:\Users\Arsenii\Desktop\Sender\Sender.Persistence\obj\Debug\net10.0\ref\Sender.Persistence.dll
+C:\Users\Arsenii\Desktop\Sender\Sender.Persistence\obj\Debug\net10.0\Sender.Persistence.sourcelink.json

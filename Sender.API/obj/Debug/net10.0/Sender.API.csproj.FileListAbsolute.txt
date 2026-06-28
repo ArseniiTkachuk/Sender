@@ -139,3 +139,4 @@ C:\Users\Arsenii\Desktop\Sender\Sender.API\bin\Debug\net10.0\System.IdentityMode
 C:\Users\Arsenii\Desktop\Sender\Sender.API\bin\Debug\net10.0\Npgsql.dll
 C:\Users\Arsenii\Desktop\Sender\Sender.API\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Arsenii\Desktop\Sender\Sender.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Arsenii\Desktop\Sender\Sender.API\obj\Debug\net10.0\Sender.API.sourcelink.json

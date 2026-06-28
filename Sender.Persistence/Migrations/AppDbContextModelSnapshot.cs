@@ -48,6 +48,28 @@ namespace Sender.Persistence.Migrations
                     b.ToTable("Contacts");
                 });
 
+            modelBuilder.Entity("Sender.Domain.Message", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Body")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Messages");
+                });
+
             modelBuilder.Entity("Sender.Domain.User", b =>
                 {
                     b.Property<Guid>("Id")

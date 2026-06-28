@@ -5,21 +5,14 @@ namespace Sender.Application
 {
     public class ContactCRUD
     {
-
-        private readonly IPasswordHasher _passwordHasher;
-        private readonly IUserRepository _userRepository;
         private readonly IContactRepository _contactRepository;
-        private readonly ITokenService _tokenService;
 
-        public ContactCRUD(IPasswordHasher passwordHasher, IUserRepository userRepository, IContactRepository contactRepository, ITokenService tokenService)
+        public ContactCRUD(IContactRepository contactRepository)
         {
-            _passwordHasher = passwordHasher;
-            _userRepository = userRepository;
             _contactRepository = contactRepository;
-            _tokenService = tokenService;
         }
 
-        public async Task<Result<Contact>> CreateContactAsync(Token decodeToken, string name, string? email, string? telegramUsername)
+        public async Task<Result<Contact>> CreateContactAsync(Guid userId, string name, string? email, string? telegramUsername)
         {
             var contact = new Contact
             {
@@ -28,7 +21,7 @@ namespace Sender.Application
                 Email = email,
                 TelegramUsername = telegramUsername,
 
-                UserId = decodeToken.Id,
+                UserId = userId,
             };
 
             await _contactRepository.AddAsync(contact);
@@ -36,7 +29,7 @@ namespace Sender.Application
             return Result<Contact>.Success(contact, 201);
         }
 
-        public async Task<Result<Contact>> GetOneContactAsync(Token decodeToken, Guid contactId)
+        public async Task<Result<Contact>> GetOneContactAsync(Guid userId, Guid contactId)
         {
             Contact contact = await _contactRepository.GetByIdAsync(contactId);
 
@@ -46,7 +39,7 @@ namespace Sender.Application
                 return Result<Contact>.Failure("Не вдалося знайти контакт", 404);
             }
 
-            if (contact.UserId != decodeToken.Id)
+            if (contact.UserId != userId)
             {
                 return Result<Contact>.Failure("Цей контакт не ваш", 403);
             }
@@ -62,7 +55,7 @@ namespace Sender.Application
         }
 
 
-        public async Task<Result<Contact>> UpdateContactAsync(Guid contactId, Token decodeToken, string? name, string? email, string? telegramUsername)
+        public async Task<Result<Contact>> UpdateContactAsync(Guid contactId, Guid userId, string? name, string? email, string? telegramUsername)
         {
             var contact = await _contactRepository.GetByIdAsync(contactId);
 
@@ -71,7 +64,7 @@ namespace Sender.Application
                 return Result<Contact>.Failure("Не вдалося знайти контакт", 404);
             }
 
-            if (contact.UserId != decodeToken.Id)
+            if (contact.UserId != userId)
             {
                 return Result<Contact>.Failure("Цей контакт не ваш", 403);
             }
@@ -85,7 +78,7 @@ namespace Sender.Application
             return Result<Contact>.Success(contact);
         }
 
-        public async Task<Result<Unit>> DeleteContactAsync(Token decodeToken ,Guid contactId)
+        public async Task<Result<Unit>> DeleteContactAsync(Guid userId, Guid contactId)
         {
             Contact contact = await _contactRepository.GetByIdAsync(contactId);
 
@@ -93,7 +86,7 @@ namespace Sender.Application
             if (contact == null)
                 return Result<Unit>.Failure("Не вдалося знайти контакт", 404);
 
-            if (contact.UserId != decodeToken.Id)
+            if (contact.UserId != userId)
                 return Result<Unit>.Failure("Цей контакт не ваш", 403);
 
             await _contactRepository.RemoveAsync(contact);

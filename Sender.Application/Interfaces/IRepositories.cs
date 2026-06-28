@@ -19,7 +19,9 @@ public interface IContactRepository
     Task<Contact?> GetByIdWithUserAsync(Guid id);
 
     Task<List<Contact>> GetAllByUserIdAsync(Guid userId);
-
+    Task<string?> GetEmailAsync(Guid Id);
+    Task<string?> GetTelegramUsernameAsync(Guid Id);
+    
     Task RemoveAsync(Contact contact);
 
     Task UpdateAsync(Contact contact);
@@ -31,10 +33,7 @@ public interface IMessageRepository
     Task<Message?> GetByIdAsync(Guid id);
     Task<List<Message>> GetAllByUserIdAsync(Guid userId);
 
-    Task RemoveAsync(Message contact);
+    Task RemoveAsync(Message message);
 
-    Task UpdateAsync(Message contact);
-
-
-
+    Task UpdateAsync(Message message);
 }

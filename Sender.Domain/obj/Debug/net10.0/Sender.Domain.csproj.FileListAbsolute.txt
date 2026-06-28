@@ -9,3 +9,4 @@ C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.dl
 C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\refint\Sender.Domain.dll
 C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.pdb
 C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\ref\Sender.Domain.dll
+C:\Users\Arsenii\Desktop\Sender\Sender.Domain\obj\Debug\net10.0\Sender.Domain.sourcelink.json
