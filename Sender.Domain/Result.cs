@@ -1,5 +1,18 @@
 ﻿public record Unit();
 
+public record SendReportResponse(
+    int TotalProcessed,
+    int Successful,
+    int Failed,
+    List<ContactError> Errors
+);
+
+public record ContactError(
+    Guid ContactId,
+    string Channel,
+    string Message
+);
+
 public class Result<T>
 {
     public bool IsSuccess { get; }

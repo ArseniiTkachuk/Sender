@@ -53,6 +53,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+builder.Services.AddScoped<IEmailProvider, EmailProvider>();
+builder.Services.AddScoped<ITelegramlProvider, TelegramlProvider>();
 builder.Services.AddScoped<AuthUser>();
 builder.Services.AddScoped<ContactCRUD>();
 builder.Services.AddScoped<MessageCRUD>();

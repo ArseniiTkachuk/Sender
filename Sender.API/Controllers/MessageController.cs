@@ -87,5 +87,19 @@ namespace Sender.API.Controllers
             return NoContent();
         }
 
+        [Authorize]
+        [HttpPost("send")]
+        public async Task<IActionResult> SendMessage([FromBody] SendMessageRequest request)
+        {
+            var result = await _messageCRUD.SendMessageAsync(decodeToken.Id, request.Contacts, request.Message, request.messageId);
+
+            if (!result.IsSuccess)
+            {
+                return StatusCode(result.StatusCode, ApiResponse<object>.FailureResult(result.Error));
+            }
+
+            return StatusCode(result.StatusCode, ApiResponse<object>.SuccessResult(result.Value));
+        }
+
     }
 }

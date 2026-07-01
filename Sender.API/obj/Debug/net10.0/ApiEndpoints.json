@@ -180,6 +180,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Sender.API.Controllers.MessageController",
+    "Method": "SendMessage",
+    "RelativePath": "Message/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Sender.API.DTO.SendMessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Sender.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

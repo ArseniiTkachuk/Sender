@@ -101,7 +101,7 @@ namespace Sender.Application
         }
 
 
-        public async Task<Result<Unit>> SendMessageAsync(Guid userId, List<ContactTarget> contactTargets, MessageContent? messageContent, Guid? messageId)
+        public async Task<Result<SendReportResponse>> SendMessageAsync(Guid userId, List<ContactTarget> contactTargets, MessageContent? messageContent, Guid? messageId)
         {
             MessageContent messageToSend;
 
@@ -114,10 +114,10 @@ namespace Sender.Application
                 var message = await _messageRepository.GetByIdAsync(messageId.Value);
 
                 if (message == null)
-                    return Result<Unit>.Failure("Не вдалося знайти шаблон повідомлення", 404);
+                    return Result<SendReportResponse>.Failure("Не вдалося знайти шаблон повідомлення", 404);
 
                 if (message.UserId != userId)
-                    return Result<Unit>.Failure("Цей шаблон повідомлення не ваш", 403);
+                    return Result<SendReportResponse>.Failure("Цей шаблон повідомлення не ваш", 403);
 
                 messageToSend = new MessageContent
                 {
@@ -127,48 +127,52 @@ namespace Sender.Application
             }
             else
             {
-                return Result<Unit>.Failure("Потрібно вказати або messageId, або об'єкт Message", 400);
+                return Result<SendReportResponse>.Failure("Потрібно вказати або messageId, або об'єкт Message", 400);
             }
 
 
-            var failedContacts = new List<string>();
+            var errors = new List<ContactError>();
+            int successCount = 0;
 
             foreach (var contactTarget in contactTargets)
             {
-                foreach (string canal in contactTarget.Channels)
+                foreach (string channel in contactTarget.Channels)
                 {
                     try
                     {
-                        if (canal.Equals("email", StringComparison.OrdinalIgnoreCase))
+                        if (channel.Equals("email", StringComparison.OrdinalIgnoreCase))
                         {
                             string? email = await _contactRepository.GetEmailAsync(contactTarget.ContactId);
                             if (string.IsNullOrEmpty(email)) throw new Exception("Email не знайдено");
 
                             await _emailProvider.SendAsync(messageToSend.Subject, messageToSend.Body, email);
                         }
-                        else if (canal.Equals("telegram", StringComparison.OrdinalIgnoreCase))
+                        else if (channel.Equals("telegram", StringComparison.OrdinalIgnoreCase))
                         {
                             string? username = await _contactRepository.GetTelegramUsernameAsync(contactTarget.ContactId);
                             if (string.IsNullOrEmpty(username)) throw new Exception("Telegram username не знайдено");
 
                             await _telegramlProvider.SendAsync(messageToSend.Subject, messageToSend.Body, username);
                         }
+                        successCount++;
                     }
                     catch (Exception ex)
                     {
-                        failedContacts.Add($"Контакт {contactTarget.ContactId} ({canal}): {ex.Message}");
+                        errors.Add(new ContactError(contactTarget.ContactId, channel, ex.Message));
                     }
                 }
             }
 
-            // Якщо є помилки, повертаємо їх користувачу
-            if (failedContacts.Any())
-            {
-                string errorMessage = "Повідомлення відправлено частково. Помилки: " + string.Join("; ", failedContacts);
-                return Result<Unit>.Failure(errorMessage, 207);
-            }
+            var report = new SendReportResponse(
+                    contactTargets.Sum(c => c.Channels.Count),
+                    successCount,
+                    errors.Count,
+                    errors
+                );
 
-            return Result<Unit>.Success();
+            return errors.Any()
+                ? Result<SendReportResponse>.Success(report, 207)
+                : Result<SendReportResponse>.Success(report, 200);
         }
 
 
